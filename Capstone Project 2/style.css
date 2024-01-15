@@ -1,0 +1,177 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins-SemiBold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: Poppins !important; 
+}
+
+#hero{
+    background: url("./images/colorkit.png");
+}
+
+
+.title-text-container .title-text h2{
+    font-weight: bold;
+}
+
+.top-container{
+    padding: 10rem 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.title-text{
+    color: white;
+    padding: 2rem 0;
+}
+
+.title-text-container{
+    padding: 5rem 5rem;
+    background-color: #1E43AF;
+    border-radius: 25px;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.profile-photo{
+    padding: 1rem 0;
+}
+
+.profile-photo img{
+    border: 5px solid white;
+    border-radius: 50%;
+    max-width: 10rem;
+    max-height: 10rem;
+    width: auto;
+    height: auto;
+}
+
+.container h1{
+    font-family: Poppins;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    margin-bottom:20px;
+
+}
+
+#skills .container h1{
+    color: white;
+}
+
+.about p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+#about > div{
+    padding: 50px 0px;
+}
+
+
+#skills{
+    background: url("./images/colorkit (1).png");  
+    padding-bottom: 50px;
+}
+
+.skillList{
+    background-color: #1E43AF;
+    border-radius: 25px;
+    padding: 2rem 5rem;
+    color: white;
+}
+
+
+
+.skillList h4{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#skillLists{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+#skillLists > div.skillList.programming > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.icon-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.icon{
+    display: block;
+    max-width: 64px;
+    max-height: 64px;
+    width: auto;
+    height:auto;
+}
+
+.text-container{
+    text-align: center;
+}
+
+.text-container h4{
+    font-weight: bold;
+}
+
+#contact{
+    padding:50px 0px;
+}
+
+footer {
+    background-color: #93a5e3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    padding:20px 0px;
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    .title-text-container{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-text-container .title-text h1{
+        padding-bottom: 20px;
+    }
+
+    #skillLists{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    section {
+        padding:0px 20px;
+    }
+}
+
+
+
+
